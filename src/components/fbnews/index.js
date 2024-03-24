@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../cardComponent';
-
+import './index.css'
 function FbNews() {
     const [products, setproducts] = useState([]);
 

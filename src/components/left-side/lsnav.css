@@ -1,0 +1,35 @@
+.LSNContainer{
+    width: 360px;
+}
+.LSNContainer > .Navbar{
+    position: fixed;
+    overflow-y: scroll;
+}
+.NavItem{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 360px;
+    height: 50px;
+}
+.NIimg{
+    margin-right: 10px;
+}
+.SVG{
+    border-radius: 100%;
+    background-color: #e4e6eb;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SVG > svg{
+    width: 14px;
+}
+.NavItem:hover{
+    background-color: #e4e6eb;
+}
+.LSNup{
+    border-bottom: 1px solid #b3b3b3;
+}

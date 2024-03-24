@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f1f1f1;
 }
 
@@ -148,4 +148,6 @@ body {
     background-color: rgba(209, 209, 209, 0.466);
     backdrop-filter: blur(4px);
   }
-  
+  .ril__toolbar{
+    top: 70px;
+  }

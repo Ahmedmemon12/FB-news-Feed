@@ -7,7 +7,12 @@
   justify-content: center;
   width: 100%;
 }
-
+.Body{
+  display: flex;
+  justify-content: space-between;
+  width: 98vw;
+  position: relative;
+}
 .Appbar {
   position: fixed !important;
 }
@@ -38,7 +43,7 @@
   color: #61dafb;
 }
 .any {
-  height: 100px;
+  height: 75px;
 }
 
 @keyframes App-logo-spin {
